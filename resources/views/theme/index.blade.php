@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>EMIS</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -25,8 +25,8 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 20%;
+  height: 550px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
@@ -40,9 +40,9 @@ nav ul {
 article {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+ 
 }
 
 /* Clear floats after the columns */
@@ -77,13 +77,27 @@ footer {
 </header>
 
 <section>
+  
   <nav>
+      Welcome back ,
+      <hr>
     <ul>
             <li><a href="{{ url('/')}}">Home</a></li>
+            <hr>
       <li><a href="divisions">Division</a></li>
-      <li><a href="#">Departments</a></li>
+      <hr>
+      
+      <li><a href="#">Functional Divisions</a></li>
+      <li><a href="#">Sections</a></li>
+      <li><a href="#">Units</a></li>
+      <hr>
+      
+      <li><a href="#">Districts</a></li>
       <li><a href="#">Schools</a></li>
-      <li><a href="#">Employee</a></li>
+      <hr>
+      <li><a href="#">Employees</a></li>
+      <hr>
+      <li><a href="#">Reports</a></li>
     </ul>
   </nav>
 
